@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronos Protocol: AI Movie Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Chronos Protocol: AI Movie Engine</h1>
+        <p class="subtitle">Paste your cinematic script below to break it down into professional scenes and prompts.</p>
+
+        <textarea id="scriptInput" rows="8" placeholder="Paste your script here... (e.g., Scene 1: The Dark Future)"></textarea>
+        
+        <button id="generateBtn" onclick="parseScript()">Generate Storyboard</button>
+
+        <div id="outputContainer" class="output" style="display: none;">
+            <h2>Generated Storyboard & Prompts</h2>
+            <div id="resultContent"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
+  
